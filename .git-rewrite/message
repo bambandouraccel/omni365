@@ -1,0 +1,3 @@
+Merge pull request #9076 from nextcloud/feature/7573/user_db_backend_index
+
+Make select queries on user DB backend indexable

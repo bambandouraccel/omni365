@@ -1,0 +1,27 @@
+tree 22d3981b8b42379eb669723248d4ab18a35a917f
+parent e970e9f7106c094d49fd3ed49244fb073b97e381
+author Roeland Jago Douma <roeland@famdouma.nl> 1523022268 +0200
+committer Roeland Jago Douma <roeland@famdouma.nl> 1523022268 +0200
+gpgsig -----BEGIN PGP SIGNATURE-----
+ 
+ iQJIBAABCAAyFiEE3Cht/X0OIo3U14/w+UEHiHg0fAwFAlrHecYUHHJvZWxhbmRA
+ ZmFtZG91bWEubmwACgkQ+UEHiHg0fAxrrBAA0DxJLwytAacC4G2uyeSkgZKUlC/h
+ xQTmSn0IQLJhMRn2Pkq1zIBKyMt+b9B4Let5jYtTmszhRvZUdbSTt8+2Z634bL0J
+ kY+DdCHb89bstrFO7XdGB3xIH+4KCLElcQqZJoaY12Pqd6nOtc1S4hqh+KXTfh7W
+ GiOKGbpbp+rGxCNt63OjdZ3Be/JibjJz3ci739I8BczcJ1qz7Cu+ulIinlLqjTyH
+ sHVJp/qOOEKYHsNS5kptRstePmIf2H/3KncjAA6+XF3pv8wsll6KFr8elo5qovX5
+ 88suHjfdluWMArDp9utCa8heTMQzLNLslxVasuH6NLyHEMXM/lQjvjLYGr0voZne
+ Q4WfP0NFB/UBjN8QdXdoBDeq+MxtAmARpXiJZUTWEDYHbeg5SRbMmNkFTWnrNXkp
+ bWMJE82LWraJkYPq0SuyYk01MEi0BUMQiaNQLmAhCVgiEmKpYmvpzUtOa9Tw/hnY
+ WYw0T5CJX4z6DX5OW2gVk1LyD5K0WgUPsyOe1cebyP0P9QE7icExKF5qIcMxBube
+ QUvRKpKWdn0pfLaNwG3JgUqbZ7F6Yc5VPq7cGdK02AtByVHQaXwLbmzgSaSDUl7X
+ ocL+9I8y1vl+xUnAJyDg/fBM75bqARhTye0mSz3vdD2g2s+aUhZ81YVxem3kUzdV
+ +cTvlj9L3fwaFEc=
+ =4uBv
+ -----END PGP SIGNATURE-----
+
+Always remember me
+
+Fixes #8004
+
+Signed-off-by: Roeland Jago Douma <roeland@famdouma.nl>
