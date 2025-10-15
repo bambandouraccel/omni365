@@ -1,6 +1,6 @@
 FROM ubuntu:noble
 
-ARG NEXTCLOUD_VERSION=omni-v31.0.7
+ARG NEXTCLOUD_VERSION=omni365-v31.0.7
 
 # Métadonnées
 LABEL name="Omni365" \
@@ -11,7 +11,7 @@ LABEL name="Omni365" \
       description="Omni365 server optimized for deployment"
 
 # Variables d'environnement
-ENV NEXTCLOUD_VERSION=${NEXTCLOUD_VERSION} \
+ENV NEXTCLOUD_VERSION=${NEXTCLOUD_VERSION} \:
     PHP_MEMORY_LIMIT=512M \
     PHP_UPLOAD_LIMIT=512M \
     OPCACHE_MEMORY_CONSUMPTION=128 \
@@ -104,7 +104,7 @@ RUN echo "📥 Clonage du repository Omni365..." && \
     # Essayer plusieurs fois en cas d'échec réseau
     for i in 1 2 3 4 5; do \
         echo "Tentative $i..." && \
-        git clone --depth 1 --branch ${NEXTCLOUD_VERSION} https://github.com/heritage-africa/omni365.git ${HOME}-temp && \
+        git clone --depth 1 --branch ${NEXTCLOUD_VERSION} https://github.com/bambandouraccel/omni365.git ${HOME}-temp && \
         break || \
         (echo "Échec de la tentative $i, nouvel essai dans 10s..." && sleep 10); \
     done && \
